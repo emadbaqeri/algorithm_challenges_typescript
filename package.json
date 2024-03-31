@@ -1,0 +1,16 @@
+{
+	"name": "ts",
+	"module": "index.ts",
+	"type": "module",
+	"scripts": {
+		"biomify": "bunx @biomejs/biome check --apply ."
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.6.3",
+		"@types/bun": "latest",
+		"vitest": "^1.4.0"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	}
+}
